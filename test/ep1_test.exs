@@ -44,7 +44,7 @@ defmodule Ep1Test do
     assert EP1.transitive_reflexive(graph) == tr_graph
   end
 
-  test "transitivo reflexivo com vértex não ligado" do
+  test "transitivo reflexivo com vértice não ligado" do
     graph = Graph.new |> Graph.add_edges([{0,1}, {1,2}, {2,3}, {3,4}]) |> Graph.add_vertex(5)
     tr_graph = Graph.new |> Graph.add_edges([{0,1}, {1,2}, {2,3}, {3,4}, {0,2}, {0,3}, {0,4}, {1,3}, {1,4}, {2,4}, {0,0}, {1,1}, {2,2}, {3,3}, {4,4}, {5,5}])
     assert EP1.transitive_reflexive(graph) == tr_graph
