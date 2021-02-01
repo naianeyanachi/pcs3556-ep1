@@ -1,0 +1,5 @@
+%{
+  "exprintf": {:hex, :exprintf, "0.2.1", "b7e895dfb00520cfb7fc1671303b63b37dc3897c59be7cbf1ae62f766a8a0314", [:mix], [], "hexpm", "20a0e8c880be90e56a77fcc82533c5d60c643915c7ce0cc8aa1e06ed6001da28"},
+  "libgraph": {:hex, :libgraph, "0.13.3", "20732b7bafb933dcf7351c479e03076ebd14a85fd3202c67a1c197f4f7c2466b", [:mix], [], "hexpm", "78f2576eef615440b46f10060b1de1c86640441422832052686df53dc3c148c6"},
+  "matrix": {:hex, :matrix, "0.3.2", "9c826bc3a1117bf5e1c5cdcf3a3d95456c93bc2e127a04e363e9fc90b724f784", [:mix], [{:exprintf, "~> 0.1", [hex: :exprintf, repo: "hexpm", optional: false]}], "hexpm", "f75adeb594a877ff49ff58a402e37c9474fb9172c997427a9b4b57ab10100f15"},
+}
